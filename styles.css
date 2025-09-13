@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+  
+:root {
+    --dark-gray: #323232;
+    --light-gray: #BFBFBF;
+    --accent-blue: #00DAD3;
+    --med-gray: #404040;
+}
+
+body {
+    background-color: #323232;
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway' !important;
+    font-weight: 200;
+    color: #BFBFBF;
+}
+
+#header {
+    margin-top: 25px; 
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+#header a {
+    color: #00DAD3; 
+    font-size: 64px !important; 
+    font-weight: 300; 
+    text-decoration: none;
+    font-family: 'Moirai One' !important;
+}
+
+.nav-wrapper {
+    background-color: #404040;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-wrapper a {
+    float: left;
+    color: #BFBFBF;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.nav-wrapper a:hover {
+    color: #00DAD3;
+}
+.nav-wrapper a.active {
+    color: #00DAD3;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+
+.page-footer {
+    background-color: #404040;
+}
+
+#main {
+    background-color: #404040;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+}
+
+.title-text {
+    margin: 0px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.subtitle-text {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+.para-text {
+    margin: 0px;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.list-text {
+    margin: 0px;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.break {
+    margin-top: 35px !important;
+}
+
+.list {
+    margin-left: 30px;
+}
+
+/* Force dropdown menus to appear below the navbar button */
+.dropdown-content {
+    background-color: var(--med-gray); /* match navbar style */
+    border-radius: 2px;
+    padding-top: 8px;
+    margin: 0px;
+}
+
+.dropdown-content li:hover {
+    background-color: var(--med-gray);
+}
+
+.dropdown-content li a {
+    color: var(--light-gray) !important;
+    font-size: 18px;
+    padding: 10px 16px;
+}
+
+.dropdown-content li a:hover {
+    background-color: var(--dark-gray) !important;
+    color: var(--accent-blue) !important;
+}
+
+.custom-card {
+    background-color: #3B3B3B;
+}
+
+.custom-actions a{
+    color: #BFBFBF !important;
+    text-transform: none !important;
+    font-size: 20px !important;
+}
+
+.custom-actions a:hover{
+    color: #00DAD3 !important;
+}
+
+.custom-title {
+    color: #00DAD3 !important;
+    font-size: 35px !important;
+}
+
+.custom-card-desc {
+    font-size: 20px !important;
+}

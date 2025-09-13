@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="icon" type="image/png" href="icon.png"/>
+  <meta name="description" content="RIT SWEN Senior Project 2025/26">
+  <meta name="author" content="Ursula Parker">
+  <link rel="stylesheet" href="styles.css">
+  <title>SUDA</title>
+</head>
+
+<body>
+    <header>
+      <h1 id="header"><a href="index.html">SUDA</a></h1>
+    </header>
+  
+    <nav class="navbar">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="index.html">About</a></li>
+          <li><a href="agendas.html">Agendas</a></li>
+          <!-- Artifacts Dropdown Trigger -->
+          <li>
+            <a class="dropdown-trigger" href="#!" data-target="artifacts-dropdown">Artifacts<i class="material-icons right">arrow_drop_down</i></a>
+          </li>
+          <li><a href="https://docs.google.com/spreadsheets/d/1SmlgUW2NazQIRDLOZsXSpxkHzpVhdG1SXfIv95ktsuM/edit?usp=sharing" target="_blank">Timecards</a></li>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a>Repository</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Artifacts Dropdown Structure -->
+    <ul id="artifacts-dropdown" class="dropdown-content">
+        <li><a href="https://docs.google.com/presentation/d/1EeqWYmOjIAGKa4WwglmALyC7lVEQEHk6/edit?usp=sharing&ouid=110322847120320164029&rtpof=true&sd=true" target="_blank">Inception Deck</a></li>
+        <li><a href="https://docs.google.com/document/d/162TJvO8FJ53im9C_2z5B18xJG94JUxNymLRMedq8Yxo/edit?usp=sharing" target="_blank">Competitive Analysis</a></li>
+      
+    </ul>
+    <!-- END OF BOILERPLATE -->
+
+    <div id="main">
+        <h1 class="title-text">Our Project: Dementia Assistance App</h1>
+        <h2 class="subtitle-text">Project Description</h2>
+        <p class="para-text">This product is for a patient with alzheimer's or similar type of dementia who lives in a facility who feels anxious and unsettled by their surroundings, and wants to know where they are and not feel abandoned when they wake up. The [project name] is a dementia assistance tool acting as a surrogate for a loved one that reduces the physiological anxiety of the dementia and improves customers’ quality of life. Unlike face-to-face interactions in real-time, our project is more scalable and available, allowing customers to feel connected despite caregivers’ busy schedules.</p>
+
+        <div class="break"></div> 
+
+        <h2 class="subtitle-text">The Team: SUDA</h2>
+        <ul class="list">
+            <p class="list-text">• <b>Gerry Garavuso:</b> Sponsor</p>
+            <p class="list-text">• <b>Drew Saur:</b> Coach</p>
+            <p class="list-text">• <b>Ursula:</b> Team Website Maintainer, UI/UX, Scrummaster</p>
+            <p class="list-text">• <b>Helena:</b> Artifact Manager, UI/UX, Security</p>
+            <p class="list-text">• <b>Sydney:</b> Project Manager, Toolsmaster</p>
+            <p class="list-text">• <b>Maggie:</b> Architect, Scrummaster</p>
+            <p class="list-text">• <b>Ray:</b> Customer Liaison, Toolsmaster</p>
+            <p class="list-text">• <b>Ethan:</b> Architect, Security</p>
+        </ul>
+
+        <div class="break"></div> 
+
+        <h2 class="subtitle-text">Keywords</h2>
+        <p class="para-text">dementia, healthcare, elderly care, messaging, video</p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer" style="padding: 0px;">
+        <p style="text-align: center; color:gray; padding: 3px;">
+            © 2025 RIT SWEN
+        </p>
+    </footer>
+
+    <!-- Dropdown Initialization -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        M.Dropdown.init(elems, {
+          constrainWidth: false,
+          coverTrigger: false,
+          alignment: 'left',
+          container: document.body 
+        });
+      });
+    </script>
+      
+</body>
+</html>
